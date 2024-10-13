@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f694e9;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    margin-bottom: 20px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.videos {
+    margin-bottom: 10px;
+}
+
+.videos video {
+    width: 50%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatsapp {
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.whatsapp i {
+    margin-right: 5px;
+}
